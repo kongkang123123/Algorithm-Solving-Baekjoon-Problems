@@ -1,0 +1,2 @@
+
+    long long N, M;
