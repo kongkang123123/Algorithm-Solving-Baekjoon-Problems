@@ -22,6 +22,7 @@ int main(void)
     for(int i=0; i<L; i++)
     {
         int num = str[i]-'a'+ 1;
+        // 각 연산마다 M으로 나눠주는 건 overflow방지하기 위함
         hash_value = (hash_value + num * r_power) % M;
         r_power = (r_power * r) % M;
     }
