@@ -1,5 +1,6 @@
 // 11723: 집합
 // 실버 5
+// 비트 마스킹 공부
 #include <iostream>
 #include <string>
 using namespace std;
